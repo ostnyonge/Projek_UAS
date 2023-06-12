@@ -299,7 +299,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$14.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$14.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -309,7 +309,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$8.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$8.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -319,7 +319,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$12.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$12.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -329,7 +329,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$12.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$12.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -339,7 +339,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$9.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$9.95</a>
               </div>
             </div>
           </div><!-- End Starter Menu Content -->
@@ -361,7 +361,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$5.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$5.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -371,7 +371,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$14.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$14.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -381,7 +381,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$8.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$8.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -391,7 +391,8 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$12.95</button>
+                <button href="<?php echo site_url('transaksi'); ?>" type="button"
+                  class="btn btn-primary btn-lg">$12.95</button>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -401,7 +402,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$12.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$12.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -411,7 +412,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$9.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$9.95</a>
               </div><!-- Menu Item -->
 
             </div>
@@ -433,7 +434,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$5.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$5.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -443,7 +444,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$14.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$14.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -453,7 +454,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$8.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$8.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -463,7 +464,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$12.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$12.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -473,7 +474,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$12.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$12.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -483,7 +484,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$9.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$9.95</a>
               </div><!-- Menu Item -->
 
             </div>
@@ -505,7 +506,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$5.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$5.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -515,7 +516,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$14.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$14.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -525,7 +526,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$8.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$8.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -535,7 +536,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$12.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$12.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -545,7 +546,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$12.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$12.95</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
@@ -555,7 +556,7 @@
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
-                <button type="button" class="btn btn-primary btn-lg">$9.95</button>
+                <a href="<?php echo site_url('transaksi'); ?>" type="button" class="btn btn-primary btn-lg">$9.95</a>
               </div><!-- Menu Item -->
             </div>
           </div><!-- End Dinner Menu Content -->
