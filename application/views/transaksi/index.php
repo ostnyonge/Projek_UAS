@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?php echo site_url(''); ?>assets/assets/img/favicon.png" rel="icon">
-  <link href="<?php echo site_url(''); ?>assets/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,11 +21,11 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="<?php echo site_url(''); ?>assets/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?php echo site_url(''); ?>assets/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="<?php echo site_url(''); ?>assets/assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="<?php echo site_url(''); ?>assets/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="<?php echo site_url(''); ?>assets/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="<?php echo site_url(''); ?>assets/assets/css/main.css" rel="stylesheet">
