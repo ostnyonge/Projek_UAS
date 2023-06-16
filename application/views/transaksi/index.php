@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?= base_url('assets/'); ?>img/favicon.png" rel="icon">
+  <link href="<?= base_url('assets/'); ?>img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,14 +21,14 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?= base_url('assets/'); ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= base_url('assets/'); ?>/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="<?= base_url('assets/'); ?>/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?= base_url('assets/'); ?>/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="<?= base_url('assets/'); ?>/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="<?php echo site_url(''); ?>assets/assets/css/main.css" rel="stylesheet">
+  <link href="<?= base_url('assets/'); ?>/css/main.css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,7 +37,7 @@
   <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="<?php echo base_url('#'); ?>" class="logo d-flex align-items-center me-auto me-lg-0">
+      <a href="<?php base_url('#'); ?>" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1>Nyambel-in<span>.</span></h1>
@@ -45,13 +45,13 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="<?php echo base_url('#'); ?>">Home</a></li>
-          <li><a href="<?php echo base_url('#about'); ?>">About</a></li>
-          <li><a href="<?php echo base_url('#menu'); ?>">Menu</a></li>
-          <li><a href="<?php echo base_url('#events'); ?>">Events</a></li>
-          <li><a href="<?php echo base_url('#chefs'); ?>">Chefs</a></li>
-          <li><a href="<?php echo base_url('#gallery'); ?>">Gallery</a></li>
-          <li><a href="<?php echo base_url('#contact'); ?>">Contact</a></li>
+          <li><a href="<?= base_url('#'); ?>">Home</a></li>
+          <li><a href="<?= base_url('#about'); ?>">About</a></li>
+          <li><a href="<?= base_url('#menu'); ?>">Menu</a></li>
+          <li><a href="<?= base_url('#events'); ?>">Events</a></li>
+          <li><a href="<?= base_url('#chefs'); ?>">Chefs</a></li>
+          <li><a href="<?= base_url('#gallery'); ?>">Gallery</a></li>
+          <li><a href="<?= base_url('#contact'); ?>">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -61,6 +61,66 @@
 
     </div>
   </header><!-- End Header -->
+
+  <!-- ======= Transaksi ======= -->
+
+  <div class="box">
+                <form method="post" action="checkout1.html">
+                  <h1>Shopping cart</h1>
+                  <p class="text-muted">You currently have 3 item(s) in your cart.</p>
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th colspan="2">Product</th>
+                          <th>Quantity</th>
+                          <th>Unit price</th>
+                          <th>Discount</th>
+                          <th colspan="2">Total</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><a href="#"><img src="img/detailsquare.jpg" alt="White Blouse Armani"></a></td>
+                          <td><a href="#">White Blouse Armani</a></td>
+                          <td>
+                            <input type="number" value="2" class="form-control">
+                          </td>
+                          <td>$123.00</td>
+                          <td>$0.00</td>
+                          <td>$246.00</td>
+                          <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td><a href="#"><img src="img/basketsquare.jpg" alt="Black Blouse Armani"></a></td>
+                          <td><a href="#">Black Blouse Armani</a></td>
+                          <td>
+                            <input type="number" value="1" class="form-control">
+                          </td>
+                          <td>$200.00</td>
+                          <td>$0.00</td>
+                          <td>$200.00</td>
+                          <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <th colspan="5">Total</th>
+                          <th colspan="2">$446.00</th>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                  <!-- /.table-responsive-->
+                  <div class="box-footer d-flex justify-content-between flex-column flex-lg-row">
+                    <div class="left"><a href="category.html" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i> Continue shopping</a></div>
+                    <div class="right">
+                      <button class="btn btn-outline-secondary"><i class="fa fa-refresh"></i> Update cart</button>
+                      <button type="submit" class="btn btn-primary">Proceed to checkout <i class="fa fa-chevron-right"></i></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
@@ -126,21 +186,21 @@
   </footer><!-- End Footer -->
   <!-- End Footer -->
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+  <a href="<?= base_url('#'); ?>" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="<?= base_url('assets/'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url('assets/'); ?>/vendor/aos/aos.js"></script>
+  <script src="<?= base_url('assets/'); ?>/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="<?= base_url('assets/'); ?>/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="<?= base_url('assets/'); ?>/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="<?= base_url('assets/'); ?>/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="<?= base_url('assets/'); ?>/js/main.js"></script>
 
 </body>
 
